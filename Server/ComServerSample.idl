@@ -1,0 +1,15 @@
+namespace ComServerSample
+{
+	enum ProcessIntegrityLevel
+	{
+		Low,
+		Medium,
+		High
+	};
+
+	runtimeclass ServerInfo
+	{
+		static UInt32 ProcessId { get; };
+		static ProcessIntegrityLevel IntegrityLevel { get; };
+	};
+}

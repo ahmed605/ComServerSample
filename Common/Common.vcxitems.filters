@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="constexpr-hash">
+      <UniqueIdentifier>{45a28531-4c76-49cb-a484-4401453ad19f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)constexpr-hash\crypto_hash.hpp">
+      <Filter>constexpr-hash</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)constexpr-hash\padded_value.hpp">
+      <Filter>constexpr-hash</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)constexpr-hash\section.hpp">
+      <Filter>constexpr-hash</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)constexpr-hash\utils.hpp">
+      <Filter>constexpr-hash</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)constexpr-hash\array.hpp">
+      <Filter>constexpr-hash</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)constexpr-hash\circular_queue.hpp">
+      <Filter>constexpr-hash</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)constexpr-hash\compile_time_md5.hpp">
+      <Filter>constexpr-hash</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IntegrityHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)EnumHelper.h" />
+  </ItemGroup>
+</Project>
