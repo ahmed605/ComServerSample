@@ -363,4 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # vcpkg
-vcpkg_installed/
+**/vcpkg_installed/*
